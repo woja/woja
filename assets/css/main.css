@@ -3,9 +3,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
 /*
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Identity by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
 */
 
 /* Reset */
@@ -169,7 +169,7 @@
 		}
 
 		a:hover {
-			color: #ff7496;
+			color: #91e6cf;
 		}
 
 	strong, b {
@@ -303,7 +303,7 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ff7496;
+			border-color: #91e6cf;
 		}
 
 	.select-wrapper {
@@ -404,13 +404,13 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			color: #ff7496;
+			color: #91e6cf;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #ff7496;
+			border-color: #91e6cf;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -546,7 +546,7 @@
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+						text-shadow: 1.25px 0px 0px #91e6cf, -1.25px 0px 0px #91e6cf, 0px 1.25px 0px #91e6cf, 0px -1.25px 0px #91e6cf;
 					}
 
 					ul.icons li a:before {
@@ -562,7 +562,7 @@
 					}
 
 					ul.icons li a:hover {
-						border-color: #ff7496;
+						border-color: #91e6cf;
 					}
 
 			@media screen and (max-width: 480px) {
@@ -636,8 +636,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #ff7496;
-			color: #ff7496 !important;
+			border-color: #91e6cf;
+			color: #91e6cf !important;
 		}
 
 		input[type="submit"].icon,
