@@ -233,7 +233,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #fff;
+		border-bottom: solid 1px rgba(255,255,255,0.25);
 		margin: 3em 0;
 	}
 

@@ -11,8 +11,25 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<script type="text/javascript">
+			let pageUrl = new URL(window.location.href);
+			let invitee_name = pageUrl.searchParams.get("invitee");
+
+			async function load() {
+				try {
+					if(invitee_name) {
+						invitee.innerHTML = `${invitee_name}!</br>please come to`;
+						invitee.style = "visibility:visible";
+						invitee_hr.style = "visibility:visible";
+					}
+				}
+				finally {
+				}
+			}			
+		</script>
 	</head>
-	<body class="landing is-preload">
+	<body class="landing is-preload" onload="load()">
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
@@ -41,11 +58,13 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
+							<h3 id="invitee" style="visibility:collapse">...</h3>
+							<hr id="invitee_hr" style="visibility:collapse"/>
 							<h1>Seth's 7th Birthday</h1>
 							<h2>Pirate party!</h2>
 							<h1>Friday 19th July</h1>
 							<h1>4:30 - 6:15</h1>
-							<p>Departs from <a href="https://teashopbythecanal.co.uk/">Tea Shop by the Canal</a>
+							<p>The Narrowboat departs from<br/> <a href="https://teashopbythecanal.co.uk/">The Tea Shop by the Canal</a>
 								<br/>
 								opposite Victoria Park - Wharf Carpark
 								<br/><em>(please arrive 10 minutes early)</em></p>
