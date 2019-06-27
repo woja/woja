@@ -20,9 +20,10 @@
 			async function load() {
 				try {
 					if(invitee_name) {
-						invitee.innerHTML = `${invitee_name}!</br>please come to`;
+						invitee.innerHTML = `${invitee_name}!<br/><sup>you are invited to</sup>`;
 						invitee.style = "visibility:visible";
-						invitee_hr.style = "visibility:visible";
+						// subtitle.style = "visibility:visible";
+						// invitee_hr.style = "visibility:visible";
 					}
 				}
 				finally {
@@ -39,7 +40,8 @@
 			<section id="banner">
 				<div class="inner">
 					<h3 id="invitee" style="visibility:collapse">...</h3>
-					<hr id="invitee_hr" style="visibility:collapse"/>
+					<!-- <h1 id="subtitle" style="visibility:collapse">You are invited to</h1> -->
+					<!-- <hr id="invitee_hr" style="visibility:collapse"/> -->
 					<h1>Seth's 7th Birthday</h1>
 					<h2>Pirate party!</h2>
 					<h1>Friday 19th July</h1>
